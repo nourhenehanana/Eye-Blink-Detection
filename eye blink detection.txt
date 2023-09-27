@@ -1,0 +1,8 @@
+eye_ar_thresh: if the eye aspect ratio falls below a certain threshold and then rises above the threshold we register a blink
+eye_ar_consec_frame:indicate that three successive fames with an ete aspect ratio less than eye_ar_thresh must happen in order for a blink to be registred
+
+counter: total number of successive frames that have an eye aspect ratio less than eye_ar_thresh
+total: total number of blinks that have taken place while the script has been running
+
+the dlib library uses pre_trained face detector which is based on a modification to the hog and linear svm method for object detection
+
